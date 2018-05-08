@@ -19,3 +19,9 @@
 ## 以附件的形式下载
 ### 输入流、设置头信息(Content-Disposition attachment;filename="") 、输出流
 ## 验证码
+### 在内存中生成一种图片 BufferedImage
+### 获取画笔
+### 准备好数据，随机选择四个字符
+### 通过画笔对象，把字符写图片上
+### 画干扰性
+### 把内存中的图片输出到浏览器中 ImageIO.write
