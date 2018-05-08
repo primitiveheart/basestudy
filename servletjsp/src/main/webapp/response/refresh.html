@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url=/response/success.html">
+    <title>定时刷新</title>
+</head>
+<body onload="run()">
+    <h5>页面将在<span id="sp">5</span>秒钟之后跳转</h5>
+</body>
+<script language="javascript">
+    var x = 5;
+    function run(){
+        var value = document.getElementById("sp");
+        value.innerHTML = x;
+        x--
+        window.setTimeout("run()", 1000);
+    }
+</script>
+</html>

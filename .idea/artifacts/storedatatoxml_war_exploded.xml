@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="storedatatoxml:war exploded">
+    <output-path>$PROJECT_DIR$/storedatatoxml/target/storedatatoxml</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="storedatatoxml" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.dom4j:dom4j:2.1.0" />
+          <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/storedatatoxml/target/storedatatoxml/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="storedatatoxml/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="storedatatoxml:war">
+    <output-path>$PROJECT_DIR$/storedatatoxml/target</output-path>
+    <root id="archive" name="storedatatoxml.war">
+      <element id="artifact" artifact-name="storedatatoxml:war exploded" />
+    </root>
+  </artifact>
+</component>
