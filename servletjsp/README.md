@@ -4,27 +4,27 @@
 ## 定时刷新(refersh)
 ## 中文乱码
 ### 字节流解决方案
-#### 输出浏览器的设置 response.setHeader("content-type", "text/html;charset=utf-8")
-#### 设置某种编码中文字节 "中文".getBytes("utf-8")
+     输出浏览器的设置 response.setHeader("content-type", "text/html;charset=utf-8")
+     设置某种编码中文字节 "中文".getBytes("utf-8")
 ### 字符流解决方案
 #### 第一种
-##### 输出浏览器的设置 response.setHeader("content-type", "text/html;charset=utf-8")
-##### 设置response缓存中的编码，其默认编码是iso-8859-1 ，response.setCharasetEncoding("utf-8")
+      输出浏览器的设置 response.setHeader("content-type", "text/html;charset=utf-8")
+      设置response缓存中的编码，其默认编码是iso-8859-1 ，response.setCharasetEncoding("utf-8")
 #### 第二种
-#### reponse.setContentType("text/html;charset=utf-8")
+      reponse.setContentType("text/html;charset=utf-8")
 ## 禁用浏览器的缓存
-### Cache-Control no-Cache
-### pragma no-Cache
-### Expires -1
+    Cache-Control no-Cache
+    pragma no-Cache
+    Expires -1
 ## 以附件的形式下载
 ### 输入流、设置头信息(Content-Disposition attachment;filename="") 、输出流
 ## 验证码
-### 在内存中生成一种图片 BufferedImage
-### 获取画笔
-### 准备好数据，随机选择四个字符
-### 通过画笔对象，把字符写图片上
-### 画干扰性
-### 把内存中的图片输出到浏览器中 ImageIO.write
+    在内存中生成一种图片 BufferedImage
+    获取画笔
+    准备好数据，随机选择四个字符
+    通过画笔对象，把字符写图片上
+    画干扰性
+    把内存中的图片输出到浏览器中 ImageIO.write
 
 # request
 ## 解决request中的获取参数的乱码的问了
@@ -41,22 +41,22 @@
 # jsp(java server pages) 服务端技术
 ## java代码+html+jsp自己的代码
 ### java代码
-#### <%! %> 不常用 定义变量(成员变量） 定义放
-#### <%= %> 使用 输出 可以输出变量 该内容输出到页面中
-#### <% %> 翻译到_japService的方法中 定义变量和编写语句
+     <%! %> 不常用 定义变量(成员变量） 定义放
+     <%= %> 使用 输出 可以输出变量 该内容输出到页面中
+      <% %> 翻译到_japService的方法中 定义变量和编写语句
 #### EL表达式 输出内容到页面中  ${name} 相当于 <%= %>
 ## 会话技术(Cookie 客户端技术，数据保存到本地)
 ### 可以处理的情况是：购物的网站
 ### 示例: 显示用户上次访问的时间
 ### 示例: 浏览记录
 ### setMaxAge() 设置有效是时间，
-#### 默认保存到浏览器的缓存中，设置有效时间则把cookie保存到磁盘上
+     默认保存到浏览器的缓存中，设置有效时间则把cookie保存到磁盘上
 ### setPath(String url) 设置有效路径
-#### 默认是路径是 ：该网站的路径，访问时都会带有所有的资源，待会携带cookie
-#### 设置有效路径: 设置路径之后，只有该路径携带cookie，其他路径都不会携带cookie
+     默认是路径是 ：该网站的路径，访问时都会带有所有的资源，待会携带cookie
+     设置有效路径: 设置路径之后，只有该路径携带cookie，其他路径都不会携带cookie
 ### setDomain() 设置有效域名
-#### 如果访问某个网站的所有的携带cookie
-#### imag.baidu.com
-#### xxx.baid.com
-#### setDomain("baidu,com")
+    如果访问某个网站的所有的携带cookie
+    imag.baidu.com
+    xxx.baid.com
+    setDomain("baidu,com")
 ## session 服务器端的技术
