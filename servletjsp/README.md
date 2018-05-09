@@ -28,19 +28,14 @@
 
 # request
 ## 解决request中的获取参数的乱码的问了
-### post方式
-    <pre>
-    <code>
+### post方式  
         request.setCharacterEncoding("utf-8")
-    </code>
-    </pre>
+    
 #### get方式 
 #### 第一种 修改 server.xml中的<connector URIEncoding="utf-8">
 #### 第二种 URLEncoder username = URLEcode.encode(username, "iso88591")
-           <pre><code>
                  URLDecoder username == URLDecode.deconde(username, "UFT-8")
                  new String(usernaem.getBytes（"iso88591"）,"utf-8")
-           </code></pre>
 ## 转发 request.getReqestDispatcher(path).forword(reqest, response)
 
 # jsp(java server pages) 服务端技术
@@ -50,6 +45,18 @@
 #### <%= %> 使用 输出 可以输出变量 该内容输出到页面中
 #### <% %> 翻译到_japService的方法中 定义变量和编写语句
 #### EL表达式 输出内容到页面中  ${name} 相当于 <%= %>
- ## 会话技术(Cookie 客户端技术，数据保存到本地)
- ### 可以处理的情况是：购物的网站
- ## session 服务器端的技术
+## 会话技术(Cookie 客户端技术，数据保存到本地)
+### 可以处理的情况是：购物的网站
+### 示例: 显示用户上次访问的时间
+### 示例: 浏览记录
+### setMaxAge() 设置有效是时间，
+#### 默认保存到浏览器的缓存中，设置有效时间则把cookie保存到磁盘上
+### setPath(String url) 设置有效路径
+#### 默认是路径是 ：该网站的路径，访问时都会带有所有的资源，待会携带cookie
+#### 设置有效路径: 设置路径之后，只有该路径携带cookie，其他路径都不会携带cookie
+### setDomain() 设置有效域名
+#### 如果访问某个网站的所有的携带cookie
+#### imag.baidu.com
+#### xxx.baid.com
+#### setDomain("baidu,com")
+## session 服务器端的技术
