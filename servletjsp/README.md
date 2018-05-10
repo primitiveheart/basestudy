@@ -60,3 +60,78 @@
     xxx.baid.com
     setDomain("baidu,com")
 ## session 服务器端的技术
+### 示例: 购物车
+    创建 第一次访问后台程序中，有request.getSession（）;
+    销毁 1、session默认的失效时间(30分钟) 2、invalidate()
+
+
+# jsp
+## jsp的基本语法
+### jsp脚本元素
+### jsp页面注释
+        <%-- --%>
+### jsp指令元素
+    <%@ page% name=value> import 可以出现多次，其它属性只能出现一次
+    errorPage 只能配置一个页面， <error-page>在web.xml配置全局页面
+    isErrorPage 使用exception对象
+    isELIgonre
+    <%@ include file%> 包含页面布局
+    <%@ taglib%> 引入标签库
+### jsp内置对象
+    requset, response. pageContext(PageContext) 
+    session application(ServletContext) out
+     page(Object this这向jsp本身对象) config(ServletConfig) exception
+     
+     out对象 JspWriter out对象中内容先输出到reponse中，在由response向外输出
+     response PrintWrite 
+     pageContext，页面的上下文
+### jsp标签
+#### jsp的动作标签
+    <jsp:forward page>
+    <jsp;param> 传送参数
+    <jsp:include>
+    <jsp:useBean>
+    <jsp:setProperty>
+    <jsp:getProperty>
+## 数据的封装
+### 内省技术Introspector
+### BeanUtils工具类 --- commons-beanutils.jar common-logging.jar
+      对日期不进行封装
+      Converter接口，ConvertUtils进行注册 
+## EL表达式
+### 获取域中的数据
+      从最小域中取值
+### 进行运算
+### 获取web开发中常用的对象
+    pageScope
+    requestScope
+    sessionScope
+    applicationScope
+    param:获取表单提交的参数
+    paramValues:
+    header和headerValues:请求头
+    initParam:获取全局的参数
+    cookie:通过cookie对象来获取cookie的值
+    pageContext
+## JSTL标签库
+    jstl.jar和standard.jar
+### core标签库
+      <c:if test>、<c:out>中的属性value、default、escapeXML对特殊字符是否不进行转义
+      <c:set>中的属性var value scope、<c:remove>、<c:choose>与<c:when>和<c:otherwise>
+      <c:forEach var=集合中某个元素 items=集合>
+       <c:forEach var begin end step>
+       <c:forEach varStatus> varStatus中属性。index、count(计数)、first、last
+       <c:import url var scope>与<%@ include%>类似
+       <c:url>实现url的重写
+       <c:redirect>
+### el函数标签库
+       该标签库主要针对字符串的
+       <c:set var="username" value="adbadkjbdk">
+      <fn:contains()>、<fn:split>、<fn:indexOf(username,"a)>
+#### 自定义函数
+      1、编写一个java类，方法必须静态的
+      2、在web-inf目录下。创建一个tld的配置文件
+### 自定义标签
+        1、实现Tag标签接口SimpleTa、SimpleTagSupport
+        2、编写tld
+#### 不带有标签主体

@@ -17,7 +17,7 @@
     <img src="/img/44.png"><a href="/product?id=44">查看</a>
     <img src="/img/55.png"><a href="/product?id=55">查看</a>
 
-    <h2>浏览记录</h2>
+    <h2>浏览记录</h2><a href="/remove">清除记录</a>
     <%
         Cookie[] cookies = request.getCookies();
         Cookie cookie = CookieUtil.getCookieByName(cookies, "product");

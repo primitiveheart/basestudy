@@ -22,12 +22,16 @@ public class ProductServlet extends HttpServlet {
         if(cookie == null){
             //第一次访问
             Cookie c = new Cookie("product", id);
+            //设置有效时间
+            cookie.setMaxAge(24*60*60);
             resp.addCookie(c);
         }else{
             String product = cookie.getValue();
             String[] products = product.split(",");
             if(!isId(products, id)){
                 cookie.setValue(product + "," + id);
+                //设置有效时间
+                cookie.setMaxAge(24*60*60);
                 resp.addCookie(cookie);
             }
         }
