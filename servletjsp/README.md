@@ -95,7 +95,7 @@
     <jsp:getProperty>
 ## 数据的封装
 ### 内省技术Introspector
-### BeanUtils工具类 --- commons-beanutils.jar common-logging.jar
+### BeanUtils工具类 --- commons-beanutils.jar commons-logging.jar
       对日期不进行封装
       Converter接口，ConvertUtils进行注册 
 ## EL表达式
@@ -132,6 +132,14 @@
       1、编写一个java类，方法必须静态的
       2、在web-inf目录下。创建一个tld的配置文件
 ### 自定义标签
-        1、实现Tag标签接口SimpleTa、SimpleTagSupport
-        2、编写tld
-#### 不带有标签主体
+        1、实现Tag标签接口SimpleTag、SimpleTagSupport
+        2、在tld文件中配置
+#### 不带有标签主体<body-content>empty</body-content>
+#### 带有标签主体 <body-content>scriptless</body-content> 可以使用el和jstl
+#### 带有属性的标签
+
+## 总结
+    servlet 1、需要进行配置(web.xml)，2、 生成html页面麻烦
+    jsp 1、不需要进行培训，2、生成html页面非常迅速 3、代码复用性不高，维护麻烦
+    jsp+javabean 1、把数据封装和处理使用Javabean进行实现 mode1时代
+    sevlet+jsp+javabean model2时代 mvc思想 
