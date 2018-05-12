@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basestudy.iml" filepath="$PROJECT_DIR$/basestudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/servletjsp/servletjsp.iml" filepath="$PROJECT_DIR$/servletjsp/servletjsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" filepath="$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" />
     </modules>
