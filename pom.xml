@@ -12,6 +12,7 @@
     <module>servletandjsp</module>
     <module>servletjsp</module>
       <module>jdbc</module>
+      <module>filter</module>
   </modules>
   <packaging>pom</packaging>
 
