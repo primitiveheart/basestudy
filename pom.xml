@@ -9,7 +9,6 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>storedatatoxml</module>
-    <module>servletandjsp</module>
     <module>servletjsp</module>
       <module>jdbc</module>
       <module>filter</module>
