@@ -4,11 +4,14 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ajax" />
     <file type="web" url="file://$PROJECT_DIR$/fileuploaddownload" />
     <file type="web" url="file://$PROJECT_DIR$/filter" />
     <file type="web" url="file://$PROJECT_DIR$/javabase" />
+    <file type="web" url="file://$PROJECT_DIR$/javamail" />
     <file type="web" url="file://$PROJECT_DIR$/jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/listener" />
+    <file type="web" url="file://$PROJECT_DIR$/onlinepay" />
     <file type="web" url="file://$PROJECT_DIR$/servletandjsp" />
     <file type="web" url="file://$PROJECT_DIR$/servletjsp" />
     <file type="web" url="file://$PROJECT_DIR$/storedatatoxml" />

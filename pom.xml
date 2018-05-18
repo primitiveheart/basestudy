@@ -16,6 +16,9 @@
       <module>javabase</module>
     <module>javabase</module>
       <module>listener</module>
+      <module>ajax</module>
+      <module>onlinepay</module>
+      <module>javamail</module>
   </modules>
   <packaging>pom</packaging>
 

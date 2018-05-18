@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="onlinepay:war">
+    <output-path>$PROJECT_DIR$/onlinepay/target</output-path>
+    <root id="archive" name="onlinepay.war">
+      <element id="artifact" artifact-name="onlinepay:war exploded" />
+    </root>
+  </artifact>
+</component>
