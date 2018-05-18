@@ -22,7 +22,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="fileuploaddownload" />
         <module name="filter" />
+        <module name="javabase" />
         <module name="jdbc" />
         <module name="servletjsp" />
         <module name="storedatatoxml" />
@@ -30,7 +32,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="basestudy" target="1.7" />
+      <module name="fileuploaddownload" target="1.7" />
       <module name="filter" target="1.7" />
+      <module name="javabase" target="1.7" />
       <module name="jdbc" target="1.7" />
       <module name="servletandjsp" target="1.7" />
       <module name="servletjsp" target="1.7" />
