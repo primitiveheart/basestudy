@@ -26,6 +26,7 @@
         <module name="filter" />
         <module name="javabase" />
         <module name="jdbc" />
+        <module name="listener" />
         <module name="servletjsp" />
         <module name="storedatatoxml" />
       </profile>
@@ -36,6 +37,7 @@
       <module name="filter" target="1.7" />
       <module name="javabase" target="1.7" />
       <module name="jdbc" target="1.7" />
+      <module name="listener" target="1.7" />
       <module name="servletandjsp" target="1.7" />
       <module name="servletjsp" target="1.7" />
       <module name="storedatatoxml" target="1.7" />
