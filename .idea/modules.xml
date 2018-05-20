@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/onlinepay/onlinepay.iml" filepath="$PROJECT_DIR$/onlinepay/onlinepay.iml" />
       <module fileurl="file://$PROJECT_DIR$/servletjsp/servletjsp.iml" filepath="$PROJECT_DIR$/servletjsp/servletjsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" filepath="$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/struts2/struts2.iml" filepath="$PROJECT_DIR$/struts2/struts2.iml" />
     </modules>
   </component>
 </project>

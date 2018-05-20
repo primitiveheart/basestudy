@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/servletandjsp" />
     <file type="web" url="file://$PROJECT_DIR$/servletjsp" />
     <file type="web" url="file://$PROJECT_DIR$/storedatatoxml" />
+    <file type="web" url="file://$PROJECT_DIR$/struts2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

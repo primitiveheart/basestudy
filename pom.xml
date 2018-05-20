@@ -19,6 +19,7 @@
       <module>ajax</module>
       <module>onlinepay</module>
       <module>javamail</module>
+      <module>struts2</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <!--<constant name="struts.multipart.maxSize" value="5242880"/>-->
+    <!--<package name="default" extends="default-struts">-->
+        <!--<result-types>-->
+            <!--<result-type name="capatcha" class="com.results.CaptchaResult"></result-type>-->
+        <!--</result-types>-->
+        <!--&lt;!&ndash;配置全局视图&ndash;&gt;-->
+        <!--<global-results>-->
+            <!--<result name="success">/success.jsp</result>-->
+        <!--</global-results>-->
+    <!--</package>-->
+
+    <package name="p1" extends="struts-default">
+
+        <interceptors>
+            <interceptor name="interceptor1" class="com.interceptor.Demo1Interceptor"/>
+            <interceptor-stack name="myDefaultStack">
+                <interceptor-ref name="defaultStack"></interceptor-ref>
+                <interceptor-ref name="interceptor1"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+
+        <default-interceptor-ref name="myDefaultStack"></default-interceptor-ref>
+        <!--<action name="captcha">-->
+            <!--<result name="success" type="captcha">-->
+                <!--<param name="width">300</param>-->
+                <!--<param name="height">200</param>-->
+            <!--</result>-->
+        <!--</action>-->
+
+        <action name="demo1" class="com.action.Demo1Action">
+            <param name="name">张三</param>
+        </action>
+
+        <action name="demo2" class="com.action.Demo2Action"></action>
+        <action name="demo3" class="com.action.Demo3Action"></action>
+        <action name="demo4" class="com.action.Demo4Action"></action>
+
+        <action name="regist" class="com.action.RegistAction" method="regist">
+            <result name="success">/success.jsp</result>
+            <result name="input">/regist.jsp</result>
+        </action>
+        <action name="interceptor" class="com.action.InterceptorAction">
+            <!--<interceptor-ref name="interceptor1"></interceptor-ref>-->
+            <result>/interceptor/1.jsp</result>
+        </action>
+    </package>
+
+    <package name="p2" extends="struts-default">
+        <action name="upload1" class="com.upload.UploadAction">
+            <interceptor-ref name="defaultStack">
+                <param name="fileUpload.allowedTypes">image/jpeg</param>
+                <param name="fileUpload.allowedExtensions">.jpg</param>
+            </interceptor-ref>
+            <result>/success.jsp</result>
+            <result name="input">/upload/1.jsp</result>
+        </action>
+
+        <action name="download1" class="com.download.DownloadAction">
+            <result name="success" type="stream">
+                <param name="inputName">inputStream</param>
+                <param name="contentType">application/octet-stream</param>
+                <param name="contentLength">${fileLength}</param>
+                <param name="contentDisposition">attachment;filename=${filename}</param>
+            </result>
+        </action>
+    </package>
+    <!--<package name="p1" extends="struts-default">-->
+        <!--<action name="hello" class="com.action.HelloAction" method="sayHello">-->
+            <!--<result>/success.jsp</result>-->
+        <!--</action>-->
+    <!--</package>-->
+
+    <!--<package name="p2" namespace="/user" extends="struts-default">-->
+        <!--<action name="add" class="com.action.UserAction" method="add">-->
+            <!--<result name="success">/add.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="edit" class="com.action.UserAction" method="edit">-->
+            <!--<result name="success">/edit.jsp</result>-->
+        <!--</action>-->
+        <!--<action name="delete" class="com.action.UserAction" method="delete">-->
+            <!--<result name="success">/delete.jsp</result>-->
+        <!--</action>-->
+    <!--</package>-->
+</struts>

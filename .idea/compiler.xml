@@ -32,6 +32,7 @@
         <module name="onlinepay" />
         <module name="servletjsp" />
         <module name="storedatatoxml" />
+        <module name="struts2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -47,6 +48,7 @@
       <module name="servletandjsp" target="1.7" />
       <module name="servletjsp" target="1.7" />
       <module name="storedatatoxml" target="1.7" />
+      <module name="struts2" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
