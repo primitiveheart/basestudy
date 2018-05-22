@@ -14,6 +14,8 @@
     <file type="web" url="file://$PROJECT_DIR$/onlinepay" />
     <file type="web" url="file://$PROJECT_DIR$/servletandjsp" />
     <file type="web" url="file://$PROJECT_DIR$/servletjsp" />
+    <file type="web" url="file://$PROJECT_DIR$/springmv" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc" />
     <file type="web" url="file://$PROJECT_DIR$/storedatatoxml" />
     <file type="web" url="file://$PROJECT_DIR$/struts2" />
   </component>
@@ -26,6 +28,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/servletandjsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springmv/pom.xml" />
       </set>
     </option>
   </component>

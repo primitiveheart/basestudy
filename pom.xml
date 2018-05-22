@@ -20,6 +20,8 @@
       <module>onlinepay</module>
       <module>javamail</module>
       <module>struts2</module>
+      <module>springmv</module>
+    <module>springmvc</module>
   </modules>
   <packaging>pom</packaging>
 
