@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d870f456-5af2-4f76-9fb9-cdb01c8adf2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hibernate_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/hibernate_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/mybatis_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/spring_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_dbcp2_2_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate/hibernate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hibernate/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/mybatis.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/spring.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/annotation/demo1/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/annotation/demo1/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/annotation/demo2/BeanConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/annotation/demo2/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/annotation/demo2/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo1/MyJDKProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo1/ProductDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo1/ProductDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo2/MyCGLibProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo2/OrderDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo3/MyBeforeAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo3/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo3/UserDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo4/CustomDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo4/MyAroundAdvice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo5/BeanNameAuto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo6/ItemDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo6/ItemDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo6/MyAspect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/aop/demo7/JDBCTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo1/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo1/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo2/Baen3Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo2/Bean1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo2/Bean2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo2/Bean2Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo2/Bean3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo3/ItemService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo4/MyBeanProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo4/OrderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo4/ProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo4/ProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo5/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/spring/demo5/Car2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/web/controller/UserServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/web/dao/UserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/java/com/web/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/applicationContext8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/annotation/demo1/UserServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/annotation/demo2/BeanConfigTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo1/MyJDKProxyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo2/MyCGLibProxyTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo3/UserDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo4/CustomDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo5/BeanNameAutoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo6/ItemDaoTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/aop/demo7/JDBCTestTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo1/UserServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo2/Baen3FactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo2/Bean1Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo2/Bean2FactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo3/ItemServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo4/OrderServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo4/ProductServiceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo5/Car2Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spring/src/main/test/com/spring/demo5/CarTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring/README.md" afterPath="$PROJECT_DIR$/spring/README.md" />
     </list>
     <ignored path="basestudy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -145,8 +54,8 @@
         <entry file="file://$PROJECT_DIR$/spring/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2342">
-                <caret line="284" column="11" selection-start-line="284" selection-start-column="11" selection-end-line="284" selection-end-column="11" />
+              <first_editor relative-caret-position="944">
+                <caret line="282" column="35" selection-start-line="282" selection-start-column="35" selection-end-line="282" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -376,8 +285,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="13" />
+    <option name="x" value="122" />
+    <option name="y" value="28" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -1606,7 +1515,7 @@
       <workItem from="1527468824707" duration="694000" />
       <workItem from="1527566421734" duration="677000" />
       <workItem from="1527755330332" duration="669000" />
-      <workItem from="1527809012828" duration="2469000" />
+      <workItem from="1527809012828" duration="3376000" />
     </task>
     <servers />
   </component>
@@ -1643,10 +1552,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268223000" />
+    <option name="totallyTimeSpent" value="269130000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="13" width="1936" height="1056" extended-state="0" />
+    <frame x="122" y="28" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2023,8 +1932,8 @@
     <entry file="file://$PROJECT_DIR$/spring/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2342">
-            <caret line="284" column="11" selection-start-line="284" selection-start-column="11" selection-end-line="284" selection-end-column="11" />
+          <first_editor relative-caret-position="944">
+            <caret line="282" column="35" selection-start-line="282" selection-start-column="35" selection-end-line="282" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />

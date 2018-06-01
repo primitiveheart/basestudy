@@ -280,7 +280,24 @@
         DataSourceTransactionManager
      配置事务管理的模板
         TransactionTemplate
-#### 声明式的事务
+#### 基于TransactionProxyFactoryBean的声明式的事务
     实际是：aop思想
     配置事务管理器
+    不好的是：需要为每个service都需要配置一个TransactionProxyFactoryBean
+
+#### 基于tx和aop的事务管理
+    模拟转账
+    配置事务管理器
+    配置声明式的
+     配置一个事务的增强
+     <tx:advice></tx:advice>
+     配置切面
+     <aop:config></aop:config>
+#### 基于注解的声明式的事务管理
+    配置事务管理器
+    开启事务注解
+    <tx:annotatoon-driven/>
+    需要进行事务管理的类上添加一个注解
+    @Transactional
+    
           
