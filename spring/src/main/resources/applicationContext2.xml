@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--xml的begin-->
+    <!--入门-->
+    <!--<bean id="userService" class="com.spring.demo1.UserServiceImpl"></bean>-->
+
+    <!--bean的实例化-->
+    <!--无参的构造器创建方式-->
+    <!--<bean id="bean1" class="com.spring.demo2.Bean1"></bean>-->
+    <!--静态工厂创建方式-->
+    <!--<bean id="bean2" class="com.spring.demo2.Bean2Factory" factory-method="getBean2"></bean>-->
+    <!--实例工厂创建方式-->
+    <!--<bean id="baen3Factory" class="com.spring.demo2.Baen3Factory"></bean>-->
+    <!--<bean id="bean3" factory-bean="baen3Factory" factory-method="getBean3"></bean>-->
+
+    <!--scope的作用范围-->
+    <!--<bean id="itemService"  class="com.spring.demo3.ItemService" scope="prototype"></bean>-->
+
+    <!--bean的生命周期-->
+    <!--<bean id="orderService" class="com.spring.demo4.OrderService" init-method="init" destroy-method="destroy"></bean>-->
+
+    <!--<bean id="productService" class="com.spring.demo4.ProductServiceImpl" init-method="init" destroy-method="teardown">-->
+        <!--<property name="name" value="张三"/>-->
+    <!--</bean>-->
+
+    <!--<bean class="com.spring.demo4.MyBeanProcessor"></bean>-->
+
+    <!--属性的注入方式-->
+    <!--<bean id="car" class="com.spring.demo5.Car">-->
+        <!--<constructor-arg name="name" value="华防守打法"></constructor-arg>-->
+        <!--<constructor-arg name="price" value="1000000000"></constructor-arg>-->
+    <!--</bean>-->
+
+    <!--<bean id="car2" class="com.spring.demo5.Car2">-->
+        <!--<property name="name" value="afdsasdf"/>-->
+        <!--<property name="price" value="100000"/>-->
+      <!--</bean>-->
+
+    <!--xml的end-->
+    <context:component-scan base-package="com.annotation"/>
+</beans>

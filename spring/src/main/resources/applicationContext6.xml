@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--配置目标对象，被增强的对象-->
+    <bean id="userDao" class="com.aop.demo3.UserDaoImpl"></bean>
+
+    <!--配置通知-->
+    <bean id="myBeforeAdvice" class="com.aop.demo3.MyBeforeAdvice"></bean>
+
+
+    <!--带有切点的切面-->
+    <!--配置目标对象-->
+    <bean id="customDao" class="com.aop.demo4.CustomDao"></bean>
+    <!--配置通知-->
+    <bean id="myAroundAdvice" class="com.aop.demo4.MyAroundAdvice"></bean>
+    <!--配置切面-->
+    <bean id="pointcutAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="pattern" value=".*save.*"/>
+        <property name="advice" ref="myAroundAdvice"/>
+     </bean>
+
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+</beans>

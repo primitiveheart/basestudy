@@ -22,6 +22,9 @@
       <module>struts2</module>
       <module>springmv</module>
     <module>springmvc</module>
+      <module>spring</module>
+    <module>mybatis</module>
+    <module>hibernate</module>
   </modules>
   <packaging>pom</packaging>
 

@@ -25,12 +25,15 @@
         <module name="ajax" />
         <module name="fileuploaddownload" />
         <module name="filter" />
+        <module name="hibernate" />
         <module name="javabase" />
         <module name="javamail" />
         <module name="jdbc" />
         <module name="listener" />
+        <module name="mybatis" />
         <module name="onlinepay" />
         <module name="servletjsp" />
+        <module name="spring" />
         <module name="springmvc" />
         <module name="storedatatoxml" />
         <module name="struts2" />
@@ -41,13 +44,16 @@
       <module name="basestudy" target="1.7" />
       <module name="fileuploaddownload" target="1.7" />
       <module name="filter" target="1.7" />
+      <module name="hibernate" target="1.7" />
       <module name="javabase" target="1.7" />
       <module name="javamail" target="1.7" />
       <module name="jdbc" target="1.7" />
       <module name="listener" target="1.7" />
+      <module name="mybatis" target="1.7" />
       <module name="onlinepay" target="1.7" />
       <module name="servletandjsp" target="1.7" />
       <module name="servletjsp" target="1.7" />
+      <module name="spring" target="1.7" />
       <module name="springmv" target="1.7" />
       <module name="springmvc" target="1.7" />
       <module name="storedatatoxml" target="1.7" />
