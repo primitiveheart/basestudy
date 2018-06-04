@@ -28,6 +28,7 @@
         <module name="hibernate" />
         <module name="javabase" />
         <module name="javamail" />
+        <module name="jax-rs" />
         <module name="jdbc" />
         <module name="listener" />
         <module name="mybatis" />
@@ -47,6 +48,7 @@
       <module name="hibernate" target="1.7" />
       <module name="javabase" target="1.7" />
       <module name="javamail" target="1.7" />
+      <module name="jax-rs" target="1.7" />
       <module name="jdbc" target="1.7" />
       <module name="listener" target="1.7" />
       <module name="mybatis" target="1.7" />

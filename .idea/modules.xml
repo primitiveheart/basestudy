@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
       <module fileurl="file://$PROJECT_DIR$/javabase/javabase.iml" filepath="$PROJECT_DIR$/javabase/javabase.iml" />
       <module fileurl="file://$PROJECT_DIR$/javamail/javamail.iml" filepath="$PROJECT_DIR$/javamail/javamail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jax-rs/jax-rs.iml" filepath="$PROJECT_DIR$/jax-rs/jax-rs.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis/mybatis.iml" filepath="$PROJECT_DIR$/mybatis/mybatis.iml" />
