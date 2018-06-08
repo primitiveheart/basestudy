@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" filepath="$PROJECT_DIR$/storedatatoxml/storedatatoxml.iml" />
       <module fileurl="file://$PROJECT_DIR$/struts2/struts2.iml" filepath="$PROJECT_DIR$/struts2/struts2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservice/webservice.iml" filepath="$PROJECT_DIR$/webservice/webservice.iml" />
     </modules>
   </component>
 </project>
